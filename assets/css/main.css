@@ -1,8 +1,174 @@
-/*
-Colors: 
-#E54E79;
-#E56385;
-#00B2A9;
-#75726C;
-#EDE9E2
-*/
+/*Colors: #E54E79;#E56385;#00B2A9;#75726C;#EDE9E2*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
+  font-family: 'Raleway', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header{
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    margin: auto;
+    background-color: #E54E79;
+    margin-top: 0;
+}
+
+.logo{
+  background-image: url(../img/logo-white.png);
+  width: 70px;
+  height: 49px;
+  background-size: 100%;
+  position: absolute;
+  left: 100px;
+  margin: 10px;
+}
+
+ul{
+  list-style: 0;
+  margin-top: 23px;
+  margin-right: 100px;
+  float: right;
+}
+
+ul li{
+  display: inline-block;
+  margin: 0;
+}
+
+ul li a{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 26px;
+}
+
+li a:hover{
+  background-color: #E56385;
+}
+
+.registro{
+  background-color: white;
+  float: right;
+  padding: 50px 30px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+#into{
+  color: #00B2A9;
+  margin-bottom: 15px;
+}
+
+h3{
+  color: #75726C;
+  margin-bottom: 40px;
+}
+
+#numero{
+  margin-bottom: 30px;
+  width: 95%;
+  height: 40px;
+}
+
+#numero, #coorValor{
+  border: none;
+  border-bottom: 1px solid  #75726C;
+}
+
+#validacion{
+  background-color: #00B2A9;
+  color: white;
+  border-radius: 5px;
+}
+#boton1{
+  background-color: #E54E79;
+  margin: 10px 0 20px 0;
+}
+
+#boton1, #boton2{
+  color: white;
+  display: block;
+  padding: 10px;
+  border-radius: 15px;
+  border: transparent;
+}
+
+.play{
+  background-color: #00B2A9;
+  clear: both;
+  padding: 40px 0px;
+}
+
+#lyft{
+  background-color: #EDE9E2;
+  font-size: 40px;
+  color: #75726C;
+  text-align: center;
+  padding: 20px;
+}
+
+.coordenada{
+  background-color: #EDE9E2;
+  padding: 60px 15px;
+  margin: 70px 150px;
+  text-align: center;
+}
+
+#coorValor{
+  background-color: #EDE9E2;
+  width: 42%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+#boton2{
+  background-color: #00B2A9;
+  margin: 20px;
+  width: 95%;
+  height: 45px;
+}
+
+.fa-car{
+  color: #75726C;
+  margin: 10px;
+}
+
+.redes{
+  background-color: #75726C;
+  padding: 20px;
+}
+
+p{
+  padding: 10px;
+}
+
+h2, #social{
+  padding: 10px 20px;
+}
+
+.fa-facebook-square, .fa-twitter-square, .fa-instagram{
+  color: #00B2A9;
+  margin: 5px 10px;
+  font-size: 40px;
+}
+.fa-facebook-square:hover, .fa-twitter-square:hover, .fa-instagram:hover{
+  color: blue;
+}
+
+.piePagina{
+  background-color: #5b5955;
+}
+
+#copy{
+  margin: 0 20px;
+  padding: 20px;
+}
